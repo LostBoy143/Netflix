@@ -1,0 +1,289 @@
+*{
+    margin:0;
+   
+    font-family: "Netflix Sans","Helvwtica Neue",Arial;
+    border: border-box;
+}
+/* Navigation bar CSS starts here */
+.navbar{
+    height:70px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.6);
+   
+/* position:absolute;
+top:0%;
+z-index: 2; */
+
+    
+}
+.nav-logo{
+    height:35px;
+    width:110px;
+    padding:60px;
+    
+}
+
+.logo{
+    background-image: url("netflix-logo2.png");
+    background-size: cover;
+    height:35px;
+    width:110px;
+    
+}
+.home{
+   color: #ffffff;
+   font-weight:700;
+}
+p{
+    color:#e5e5e5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.menubar{
+    display:flex;
+    justify-content: space-evenly;
+    width:550px;
+    height:17px;
+}
+i{
+    color:white;
+    font-size: 1.2em;
+}
+.end-menu{
+    display:flex;
+    height:68px;
+    width:230px;
+    justify-content:space-evenly;
+    align-items: center;
+    position:absolute;
+    right:4%;
+   
+    
+}
+.dropdown i{
+   font-size: 0.8em;
+   margin-left: 10px;
+}
+.account{
+    height:32px;
+    width:32px;
+    background-image: url("account-logo.png");
+    background-size: cover;
+    border-radius: 15%;
+}
+/* Navigation bar CSS Ends here */
+.hero-section{
+    background-image: url("hero_image.webp");
+    background-size:cover;
+    height:700px;
+    width:100%;
+   
+    
+}
+/* The text on the hero section */
+.description{
+    background-color: transparent;
+    position:absolute;
+    top:140px;
+    left:0px;
+    z-index: 2;
+    padding-left: 60px;
+}
+.image{
+    width:460px;
+    height:182px;
+    background-image: url("story.webp");
+    background-size: cover;
+}
+.image-title{
+    width:455px;
+    height:60px;
+    color:#ffffff;
+    margin-top:20px;
+
+}
+.play{
+    background-color: #ffffff;
+    height:44px;
+    width:120px;
+    
+    font-size:18px;
+    font-weight:650;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+
+}
+.play:hover{
+    background-color: #d4cdcd;
+    
+}
+.play i{
+    color:black;
+   font-size:1.4em;
+   margin-right:10px;
+}
+.description{
+    background: linear-gradient(77deg,rgba(0,0,0,.6),transparent 85%);
+}
+.play-info{
+    display: flex;
+    height:44px;
+    margin-top: 15px;
+
+}
+.info{
+    width:160px;
+    height:44px;
+    color:#ffffff;
+    background-color: #6d6d6eb3;
+    margin-left: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.info:hover{
+    background-color:#414141b3 ;
+
+}
+.info i{
+    font-size: 20px;
+    margin-right:8px;
+}
+/* The text on the hero section  ends here =============================== */
+
+/* Box1 Css starts here ================================================== */
+.box-hero{
+    margin-top:30px;
+    position:relative;
+    top:-185px;
+    z-index: 2;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.box-header{
+    height:37px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:50px;
+    color:white;
+    background-color:transparent;
+}
+
+.box1-container{
+   
+    height:131px;
+    background-color: transparent;
+    padding:0px 45px 0px 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img{
+width:230px;
+height:130px;
+background-size: cover;
+}
+.img:hover{
+    transform:scale(1.3);
+}
+body{
+    background-color: #141414;
+}
+
+/*   Footer Content   ================================================================    */
+
+footer{
+    height:220px;
+    background-color: #141414;
+    color:white;
+    padding: 20px 60px;
+    margin-top:-100px;
+}
+.footpanel-1{
+display:flex;
+height:35px;
+width:100%;
+padding-left:50px;
+}
+i{
+    width:36px;
+    height:19px;
+    font-size:22px;
+    
+}
+.Social{
+margin-left:15px;
+}
+.footpanel-2{
+    display:flex;
+    justify-content: space-evenly;
+    height:110px;
+    width:100%;
+    margin-left: -80px;
+}
+a{
+    text-decoration: none;
+    margin:0px 0px 16px;
+}
+ul a:hover{
+    text-decoration: underline #808080;
+}
+.footpanel-2 p{
+    color:#808080;
+   
+}
+ul{
+    display:flex;
+    flex-direction: column;
+   
+}
+.footpanel-3{
+    width:100%;
+    height:60px;
+}
+.service{
+    height:30px;
+    width:100px;
+    background-color: white;
+    margin-left: 60px;
+    background-color: transparent;
+    color:#808080;
+    font-size: 14px;
+    border:1px solid #808080;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.service:hover{
+color:white;
+}
+.footpanel-4{
+    width:100%;
+    height:14px;
+    margin-bottom: 15px;
+   
+
+}
+span{
+font-size: 11px;
+color:#808080;
+margin-bottom: 15px;
+margin-left: 60px;
+}
+/* Footer Css ENDS  */
+
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index:5;
+      }
+     
